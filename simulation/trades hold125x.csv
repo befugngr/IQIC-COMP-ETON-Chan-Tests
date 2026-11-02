@@ -1,0 +1,171 @@
+date,time,ticker,side,units,price,notional_$,commission_$,slippage_$,sleeve,reason
+2025-01-03,open,BTC,buy,0.258028,96905.48,25004.33,0.0,25.0,BTC_TREND,BTC 60d return>0 at prev close
+2025-01-03,open,SPY,buy,53.0,587.53,31139.09,0.0,6.23,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-01-03,close,SPY,sell,53.0,591.95,31373.35,0.0,6.27,BSD,intraday exit at close
+2025-01-08,open,CAT,buy,121.0,362.45,43856.45,0.0,10.96,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-01-13,open,SPY,buy,53.0,575.77,30515.81,0.0,6.1,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-01-13,close,SPY,sell,53.0,581.39,30813.67,0.0,6.16,BSD,intraday exit at close
+2025-01-15,open,SPY,buy,53.0,590.325,31287.22,0.0,6.26,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-01-15,close,SPY,sell,53.0,592.78,31417.34,0.0,6.28,BSD,intraday exit at close
+2025-01-21,open,CAT,sell,121.0,391.0,47311.0,0.0,11.83,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-01-30,open,SPY,buy,54.0,603.96,32613.84,0.0,6.52,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-01-30,close,SPY,sell,54.0,605.04,32672.16,0.0,6.53,BSD,intraday exit at close
+2025-02-04,open,CAT,buy,124.0,369.66,45837.84,0.0,11.46,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-02-04,open,SPY,buy,55.0,597.83,32880.65,0.0,6.58,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-02-04,close,SPY,sell,55.0,601.78,33097.9,0.0,6.62,BSD,intraday exit at close
+2025-02-05,open,BTC,sell,0.258028,97795.06,25233.86,0.0,25.23,BTC_TREND,BTC 60d return<=0 at prev close
+2025-02-13,open,SPY,buy,53.0,604.48,32037.44,0.0,6.41,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-02-13,close,SPY,sell,53.0,609.73,32315.69,0.0,6.46,BSD,intraday exit at close
+2025-02-18,open,CAT,sell,124.0,355.47,44078.28,0.0,11.02,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-02-21,open,BTC,buy,0.262689,98347.2,25834.73,0.0,25.83,BTC_TREND,BTC 60d return>0 at prev close
+2025-02-25,open,BTC,sell,0.262689,91509.88,24038.64,0.0,24.04,BTC_TREND,BTC 60d return<=0 at prev close
+2025-03-06,open,CAT,buy,132.0,335.27,44255.64,0.0,11.06,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-03-12,open,SPY,buy,56.0,562.17,31481.52,0.0,6.3,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-03-12,close,SPY,sell,56.0,558.87,31296.72,0.0,6.26,BSD,intraday exit at close
+2025-03-13,open,CAT,sell,132.0,336.03,44355.96,0.0,11.09,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-03-14,open,CAT,buy,131.0,337.72,44241.32,0.0,11.06,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-03-28,open,CAT,sell,131.0,337.0,44147.0,0.0,11.04,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-04-02,open,SPY,buy,57.0,555.05,31637.85,0.0,6.33,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-04-02,close,SPY,sell,57.0,564.52,32177.64,0.0,6.44,BSD,intraday exit at close
+2025-04-14,open,CAT,buy,149.0,298.67,44501.83,0.0,11.13,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-04-22,open,SPY,buy,60.0,520.14,31208.4,0.0,6.24,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-04-22,close,SPY,sell,60.0,527.25,31635.0,0.0,6.33,BSD,intraday exit at close
+2025-04-28,open,BTC,buy,0.277091,93780.56,25985.75,0.0,25.99,BTC_TREND,BTC 60d return>0 at prev close
+2025-04-30,open,CAT,sell,149.0,315.21,46966.29,0.0,11.74,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-05-07,open,SPY,buy,59.0,560.15,33048.85,0.0,6.61,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-05-07,close,SPY,sell,59.0,561.15,33107.85,0.0,6.62,BSD,intraday exit at close
+2025-05-16,open,CAT,buy,134.0,351.54,47106.36,0.0,11.78,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-05-19,open,CAT,sell,134.0,349.7,46859.8,0.0,11.71,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-05-22,open,SPY,buy,58.0,582.66,33794.28,0.0,6.76,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-05-22,close,SPY,sell,58.0,583.09,33819.22,0.0,6.76,BSD,intraday exit at close
+2025-05-27,open,CAT,buy,136.0,349.95,47593.2,0.0,11.9,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-05-29,open,CAT,sell,136.0,352.2,47899.2,0.0,11.97,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-06-04,open,CAT,buy,135.0,350.3,47290.5,0.0,11.82,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-06-10,open,CAT,sell,135.0,359.44,48524.4,0.0,12.13,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-06-10,open,SPY,buy,57.0,600.22,34212.54,0.0,6.84,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-06-10,close,SPY,sell,57.0,603.08,34375.56,0.0,6.88,BSD,intraday exit at close
+2025-06-24,open,CAT,buy,130.0,369.89,48085.7,0.0,12.02,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-07-07,open,CAT,sell,130.0,398.06,51747.8,0.0,12.94,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-07-09,open,CAT,buy,125.0,399.72,49965.0,0.0,12.49,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-07-11,open,SPY,buy,59.0,622.74,36741.66,0.0,7.35,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-07-11,close,SPY,sell,59.0,623.62,36793.58,0.0,7.36,BSD,intraday exit at close
+2025-07-17,open,CAT,sell,125.0,414.86,51857.5,0.0,12.96,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-07-22,open,CAT,buy,127.0,410.375,52117.62,0.0,13.03,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-07-23,open,SPY,buy,59.0,631.55,37261.45,0.0,7.45,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-07-23,close,SPY,sell,59.0,634.21,37418.39,0.0,7.48,BSD,intraday exit at close
+2025-07-29,open,CAT,sell,127.0,434.55,55187.85,0.0,13.8,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-08-08,open,SPY,buy,60.0,634.06,38043.6,0.0,7.61,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-08-08,close,SPY,sell,60.0,637.18,38230.8,0.0,7.65,BSD,intraday exit at close
+2025-08-13,open,CAT,buy,130.0,415.18,53973.4,0.0,13.49,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-08-18,open,CAT,sell,130.0,407.0,52910.0,0.0,13.23,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-09-03,open,CAT,buy,125.0,418.13,52266.25,0.0,13.07,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-09-08,open,CAT,sell,125.0,422.65,52831.25,0.0,13.21,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-09-09,open,BTC,sell,0.277091,112072.57,31054.3,0.0,31.05,BTC_TREND,BTC 60d return<=0 at prev close
+2025-09-11,open,SPY,buy,57.0,654.18,37288.26,0.0,7.46,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-09-11,close,SPY,sell,57.0,657.63,37484.91,0.0,7.5,BSD,intraday exit at close
+2025-09-12,open,CAT,buy,123.0,429.06,52774.38,0.0,13.19,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-09-18,open,CAT,sell,123.0,450.96,55468.08,0.0,13.87,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-09-25,open,CAT,buy,116.0,464.71,53906.36,0.0,13.48,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-10-01,open,BTC,buy,0.275268,114067.71,31399.19,0.0,31.4,BTC_TREND,BTC 60d return>0 at prev close
+2025-10-13,open,BTC,sell,0.275268,115067.96,31674.53,0.0,31.67,BTC_TREND,BTC 60d return<=0 at prev close
+2025-10-13,open,CAT,sell,116.0,502.15,58249.4,0.0,14.56,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-10-20,open,CAT,buy,106.0,529.56,56133.36,0.0,14.03,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-10-21,open,CAT,sell,106.0,525.07,55657.42,0.0,13.91,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-10-24,open,CAT,buy,107.0,522.86,55946.02,0.0,13.99,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-10-27,open,BTC,buy,0.280208,114561.69,32101.1,0.0,32.1,BTC_TREND,BTC 60d return>0 at prev close
+2025-10-31,open,CAT,sell,107.0,584.03,62491.21,0.0,15.62,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-11-04,open,BTC,sell,0.280208,106557.98,29858.4,0.0,29.86,BTC_TREND,BTC 60d return<=0 at prev close
+2025-11-12,open,CAT,buy,101.0,570.5,57620.5,0.0,14.41,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-11-14,open,CAT,sell,101.0,548.96,55444.96,0.0,13.86,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-11-17,open,CAT,buy,103.0,552.585,56916.26,0.0,14.23,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-11-18,open,CAT,sell,103.0,543.35,55965.05,0.0,13.99,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-11-28,open,CAT,buy,98.0,573.79,56231.42,0.0,14.06,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-12-03,open,SPY,buy,60.0,680.57,40834.2,0.0,8.17,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-12-03,close,SPY,sell,60.0,683.89,41033.4,0.0,8.21,BSD,intraday exit at close
+2025-12-10,open,SPY,buy,60.0,682.56,40953.6,0.0,8.19,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2025-12-10,close,SPY,sell,60.0,687.57,41254.2,0.0,8.25,BSD,intraday exit at close
+2025-12-11,open,CAT,sell,98.0,610.45,59824.1,0.0,14.96,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-12-12,open,CAT,buy,93.0,626.0,58218.0,0.0,14.55,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2025-12-15,open,CAT,sell,93.0,602.53,56035.29,0.0,14.01,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2025-12-22,open,CAT,buy,98.0,584.49,57280.02,0.0,14.32,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-01-13,open,CAT,sell,98.0,633.2,62053.6,0.0,15.51,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-01-14,open,BTC,buy,0.358535,95385.59,34199.07,0.0,34.2,BTC_TREND,BTC 60d return>0 at prev close
+2026-01-14,open,SPY,buy,61.0,691.0,42151.0,0.0,8.43,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-01-14,close,SPY,sell,61.0,690.36,42111.96,0.0,8.42,BSD,intraday exit at close
+2026-01-15,open,CAT,buy,93.0,644.94,59979.42,0.0,14.99,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-01-20,open,CAT,sell,93.0,642.0,59706.0,0.0,14.93,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-01-27,open,BTC,sell,0.358535,88250.0,31640.71,0.0,31.64,BTC_TREND,BTC 60d return<=0 at prev close
+2026-01-27,open,CAT,buy,91.0,640.0,58240.0,0.0,14.56,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-02-02,open,CAT,sell,91.0,659.82,60043.62,0.0,15.01,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-02-04,open,CAT,buy,84.0,707.0,59388.0,0.0,14.85,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-02-05,open,CAT,sell,84.0,681.54,57249.36,0.0,14.31,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-02-10,open,CAT,buy,78.0,742.75,57934.5,0.0,14.48,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-02-11,open,CAT,sell,78.0,758.68,59177.04,0.0,14.79,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-02-17,open,SPY,buy,62.0,680.14,42168.68,0.0,8.43,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-02-17,close,SPY,sell,62.0,682.85,42336.7,0.0,8.47,BSD,intraday exit at close
+2026-02-23,open,CAT,buy,77.0,758.95,58439.15,0.0,14.61,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-02-24,open,CAT,sell,77.0,755.0,58135.0,0.0,14.53,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-02-25,open,CAT,buy,76.0,772.5,58710.0,0.0,14.68,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-03-03,open,SPY,buy,61.0,675.06,41178.66,0.0,8.24,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-03-03,close,SPY,sell,61.0,680.33,41500.13,0.0,8.3,BSD,intraday exit at close
+2026-03-04,open,CAT,sell,76.0,737.09,56018.84,0.0,14.0,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-03-11,open,SPY,buy,61.0,677.58,41332.38,0.0,8.27,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-03-11,close,SPY,sell,61.0,676.33,41256.13,0.0,8.25,BSD,intraday exit at close
+2026-03-30,open,CAT,buy,82.0,702.21,57581.22,0.0,14.4,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-03-31,open,CAT,sell,82.0,680.0,55760.0,0.0,13.94,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-04-01,open,CAT,buy,79.0,722.0,57038.0,0.0,14.26,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-04-07,open,BTC,buy,0.475325,68853.6,32727.84,0.0,32.73,BTC_TREND,BTC 60d return>0 at prev close
+2026-04-08,open,CAT,sell,79.0,764.62,60404.98,0.0,15.1,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-04-08,open,SPY,buy,61.0,676.39,41259.79,0.0,8.25,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-04-08,close,SPY,sell,61.0,676.01,41236.61,0.0,8.25,BSD,intraday exit at close
+2026-04-09,open,CAT,buy,76.0,773.0,58748.0,0.0,14.69,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-04-21,open,CAT,sell,76.0,804.88,61170.88,0.0,15.29,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-04-21,open,SPY,buy,61.0,710.28,43327.08,0.0,8.67,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-04-21,close,SPY,sell,61.0,704.08,42948.88,0.0,8.59,BSD,intraday exit at close
+2026-05-04,open,SPY,buy,61.0,720.07,43924.27,0.0,8.78,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-05-04,close,SPY,sell,61.0,718.01,43798.61,0.0,8.76,BSD,intraday exit at close
+2026-05-07,open,CAT,buy,66.0,929.96,61377.36,0.0,15.34,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-05-18,open,CAT,sell,66.0,893.32,58959.12,0.0,14.74,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-05-26,open,CAT,buy,67.0,884.95,59291.65,0.0,14.82,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-05-29,open,CAT,sell,67.0,886.69,59408.23,0.0,14.85,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-06-02,open,CAT,buy,67.0,876.67,58736.89,0.0,14.68,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-06-03,open,BTC,sell,0.475325,66658.45,31684.43,0.0,31.68,BTC_TREND,BTC 60d return<=0 at prev close
+2026-06-08,open,CAT,sell,67.0,917.0,61439.0,0.0,15.36,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-06-15,open,CAT,buy,63.0,935.0,58905.0,0.0,14.73,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-06-22,open,CAT,sell,63.0,999.28,62954.64,0.0,15.74,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-07-02,open,CAT,buy,61.0,1001.28,61078.08,0.0,15.27,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-07-02,open,SPY,buy,58.0,747.4,43349.2,0.0,8.67,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-07-02,close,SPY,sell,58.0,744.78,43197.24,0.0,8.64,BSD,intraday exit at close
+2026-07-06,open,CAT,sell,61.0,979.09,59724.49,0.0,14.93,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-07-06,open,SPY,buy,57.0,748.74,42678.18,0.0,8.54,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-07-06,close,SPY,sell,57.0,751.28,42822.96,0.0,8.56,BSD,intraday exit at close
+2026-07-13,open,CAT,buy,64.0,939.21,60109.44,0.0,15.03,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-07-14,open,CAT,sell,64.0,958.0,61312.0,0.0,15.33,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-07-15,open,CAT,buy,65.0,938.58,61007.7,0.0,15.25,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-07-17,open,CAT,sell,65.0,841.73,54712.45,0.0,13.68,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-07-22,open,CAT,buy,66.0,877.29,57901.14,0.0,14.48,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-07-24,open,CAT,sell,66.0,895.0,59070.0,0.0,14.77,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-07-31,open,CAT,buy,70.0,843.39,59037.3,0.0,14.76,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-08-05,open,BTC,buy,0.536126,64050.51,34339.14,0.0,34.34,BTC_TREND,BTC 60d return>0 at prev close
+2026-08-10,open,CAT,sell,70.0,849.04,59432.8,0.0,14.86,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-08-12,open,BTC,sell,0.536126,63531.75,34061.02,0.0,34.06,BTC_TREND,BTC 60d return<=0 at prev close
+2026-08-18,open,BTC,buy,0.524197,64477.26,33798.79,0.0,33.8,BTC_TREND,BTC 60d return>0 at prev close
+2026-08-18,open,SPY,buy,54.0,768.7,41509.8,0.0,8.3,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-08-18,close,SPY,sell,54.0,767.45,41442.3,0.0,8.29,BSD,intraday exit at close
+2026-08-20,open,SPY,buy,56.0,765.96,42893.76,0.0,8.58,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-08-20,close,SPY,sell,56.0,762.6,42705.6,0.0,8.54,BSD,intraday exit at close
+2026-08-21,open,SPY,buy,56.0,766.05,42898.8,0.0,8.58,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-08-21,close,SPY,sell,56.0,765.72,42880.32,0.0,8.58,BSD,intraday exit at close
+2026-08-26,open,CAT,buy,76.0,816.2,62031.2,0.0,15.51,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-08-31,open,CAT,sell,76.0,800.0,60800.0,0.0,15.2,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-09-10,open,CAT,buy,76.0,809.75,61541.0,0.0,15.39,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-09-11,open,CAT,sell,76.0,817.75,62149.0,0.0,15.54,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-09-18,open,CAT,buy,76.0,800.79,60860.04,0.0,15.22,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-09-21,open,SPY,buy,58.0,766.251,44442.56,0.0,8.89,BSD,BTC>+2% & SPY<+0.3% & VIX<40 at prev close
+2026-09-21,close,SPY,sell,58.0,773.5,44863.0,0.0,8.97,BSD,intraday exit at close
+2026-09-28,open,CAT,sell,76.0,821.05,62399.8,0.0,15.6,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-10-12,open,CAT,buy,80.0,798.42,63873.6,0.0,15.97,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
+2026-10-14,open,CAT,sell,80.0,761.6,60928.0,0.0,15.23,COPPER_DEMAND,CPER 5d adj return<+1.5% at prev close
+2026-10-27,open,BTC,sell,0.524197,80008.79,41940.37,0.0,41.94,BTC_TREND,BTC 60d return<=0 at prev close
+2026-10-28,open,BTC,buy,0.438855,80799.5,35459.26,0.0,35.46,BTC_TREND,BTC 60d return>0 at prev close
+2026-10-29,open,CAT,buy,97.0,636.33,61724.01,0.0,15.43,COPPER_DEMAND,CPER 5d adj return>=+1.5% at prev close
