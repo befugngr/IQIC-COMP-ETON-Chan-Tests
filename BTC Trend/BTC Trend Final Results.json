@@ -1,0 +1,136 @@
+{
+
+ "main_results": {
+  "base": {
+   "n_days": 2012,
+   "ann_ret_pct": 63.84,
+   "ann_vol_pct": 50.4,
+   "sharpe_raw": 1.27,
+   "hit_daily": 0.321,
+   "t_hac": 3.4,
+   "maxdd_pct": -64.48,
+   "sharpe_excess": 1.22,
+   "beta": 0.304,
+   "alpha_ann_pct": 58.09,
+   "alpha_t": 3.28,
+   "treynor_excess": 2.031
+  },
+  "conservative": {
+   "n_days": 2012,
+   "ann_ret_pct": 63.84,
+   "ann_vol_pct": 50.4,
+   "sharpe_raw": 1.27,
+   "hit_daily": 0.321,
+   "t_hac": 3.4,
+   "maxdd_pct": -64.48,
+   "sharpe_excess": 1.22,
+   "beta": 0.304,
+   "alpha_ann_pct": 58.09,
+   "alpha_t": 3.28,
+   "treynor_excess": 2.031
+  },
+  "windows15_base": {
+   "n": 1997,
+   "mean_bp": 389.7,
+   "med_bp": 0.0,
+   "p5_bp": -1323.1,
+   "worst_bp": -3451.3,
+   "best_bp": 10227.4,
+   "pct_pos": 0.414,
+   "pct_beat_spy": 0.481
+  },
+  "windows15_cons": {
+   "n": 1997,
+   "mean_bp": 389.7,
+   "med_bp": 0.0,
+   "p5_bp": -1323.1,
+   "worst_bp": -3451.3,
+   "best_bp": 10227.4,
+   "pct_pos": 0.414,
+   "pct_beat_spy": 0.481
+  },
+  "by_year": {
+   "2017": {
+    "ret_pct": 229.3,
+    "sharpe": 2.7
+   },
+   "2018": {
+    "ret_pct": -44.8,
+    "sharpe": -1.29
+   },
+   "2019": {
+    "ret_pct": 91.8,
+    "sharpe": 1.87
+   },
+   "2020": {
+    "ret_pct": 111.1,
+    "sharpe": 2.55
+   },
+   "2021": {
+    "ret_pct": 93.2,
+    "sharpe": 1.54
+   },
+   "2022": {
+    "ret_pct": -66.5,
+    "sharpe": -2.65
+   },
+   "2023": {
+    "ret_pct": 56.1,
+    "sharpe": 1.48
+   },
+   "2024": {
+    "ret_pct": 39.9,
+    "sharpe": 0.98
+   }
+  },
+  "trades_devval": 65,
+  "stress_2x": {
+   "n_days": 2012,
+   "ann_ret_pct": 62.46,
+   "ann_vol_pct": 50.44,
+   "sharpe_raw": 1.24,
+   "hit_daily": 0.32,
+   "t_hac": 3.32,
+   "maxdd_pct": -65.28
+  }
+ },
+ "placebo_2000_random_draws": {
+  "obs_sum_bp": 58590.0,
+  "placebo_mean_bp": 31835.0,
+  "p": 0.005
+ },
+ "bootstrap_15day_windows": {
+  "win_mean_bp": 419.2,
+  "ci95": [
+   354.5,
+   485.2
+  ]
+ },
+ "correlation_with_other_sleeves": {
+  "BSD": 0.04,
+  "BTC_TREND": 1.0,
+  "STOCK_REV": 0.096
+ },
+ "regime_breakdown": {
+  "bull": {
+   "n": 836,
+   "bp_day": 39.7
+  },
+  "bear": {
+   "n": 215,
+   "bp_day": 1.2
+  },
+  "side": {
+   "n": 902,
+   "bp_day": 20.5
+  },
+  "lowVIX": {
+   "n": 667,
+   "bp_day": 43.8
+  },
+  "hiVIX": {
+   "n": 671,
+   "bp_day": 15.8
+  }
+ }
+}
