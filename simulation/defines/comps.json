@@ -1,0 +1,164 @@
+{
+ "frozen_weights": {
+  "BSD": 0.25,
+  "BTC_TREND": 0.2,
+  "COPPER_DEMAND": 0.35
+ },
+ "cash_weight": 0.2,
+ "freeze_rule": "grid objective 0.4*Sharpe+0.3*alpha+0.2*Treynor+0.1*return (percentile within grid) on dev+val only; tie-break: placebo-proven sleeves keep floor 0.25 of prior weight (BSD 0.50->floor 0.25) because top-20 mixes are statistically tied (alpha_t 3.85-3.92, t>4.5); free-grid winner was BSD=0/BTC=0.20/COPPER=0.35, dropped by tie-break",
+ "free_grid_winner": {
+  "BSD": 0.0,
+  "BTC_TREND": 0.2,
+  "COPPER_DEMAND": 0.35000000000000003,
+  "objective": 0.76
+ },
+ "devval_stats": {
+  "sharpe_raw": 1.67,
+  "sharpe_excess": 1.49,
+  "ann_ret_pct": 20.11,
+  "ann_vol_pct": 12.06,
+  "alpha_ann_pct": 16.03,
+  "alpha_t": 3.88,
+  "beta": 0.165,
+  "treynor_excess": 1.088,
+  "t_hac": 4.57,
+  "maxdd_pct": -12.27
+ },
+ "holdout_one_shot": {
+  "sharpe_raw": 1.42,
+  "sharpe_excess": 1.01,
+  "ann_ret_pct": 13.67,
+  "ann_vol_pct": 9.64,
+  "alpha_ann_pct": 7.41,
+  "alpha_t": 1.09,
+  "beta": 0.175,
+  "treynor_excess": 0.553,
+  "t_hac": 1.8,
+  "maxdd_pct": -8.47
+ },
+ "holdout_win15": {
+  "n": 444,
+  "mean_bp": 88.2,
+  "med_bp": 86.8,
+  "p5_bp": -244.4,
+  "worst_bp": -587.9,
+  "best_bp": 712.3,
+  "pct_pos": 0.622,
+  "pct_beat_spy": 0.48
+ },
+ "old_composite_devval": {
+  "sharpe_raw": 1.38,
+  "ann_ret_pct": 17.33,
+  "alpha_ann_pct": 11.35,
+  "alpha_t": 2.92,
+  "beta": 0.329,
+  "treynor_excess": 0.462,
+  "t_hac": 3.84,
+  "maxdd_pct": -26.15
+ },
+ "old_composite_holdout": {
+  "sharpe_raw": 1.1,
+  "ann_ret_pct": 9.0,
+  "alpha_ann_pct": 1.19,
+  "alpha_t": 0.26,
+  "beta": 0.319,
+  "treynor_excess": 0.158,
+  "t_hac": 1.51,
+  "maxdd_pct": -6.53
+ },
+ "old_composite_holdout_win15": {
+  "n": 444,
+  "mean_bp": 52.6,
+  "med_bp": 55.6,
+  "p5_bp": -266.7,
+  "worst_bp": -480.6,
+  "best_bp": 561.8,
+  "pct_pos": 0.615,
+  "pct_beat_spy": 0.408
+ },
+ "lev_125_devval": {
+  "sharpe_raw": 1.63,
+  "ann_ret_pct": 24.6,
+  "alpha_ann_pct": 20.04,
+  "alpha_t": 3.88,
+  "beta": 0.206,
+  "treynor_excess": 1.088,
+  "t_hac": 4.47,
+  "maxdd_pct": -15.54
+ },
+ "sleeve_corr": {
+  "BSD|BSD": 1.0,
+  "BSD|BTC_TREND": 0.029,
+  "BSD|COPPER_DEMAND": 0.018,
+  "BSD|SR": 0.209,
+  "BTC_TREND|BSD": 0.029,
+  "BTC_TREND|BTC_TREND": 1.0,
+  "BTC_TREND|COPPER_DEMAND": 0.041,
+  "BTC_TREND|SR": 0.088,
+  "COPPER_DEMAND|BSD": 0.018,
+  "COPPER_DEMAND|BTC_TREND": 0.041,
+  "COPPER_DEMAND|COPPER_DEMAND": 1.0,
+  "COPPER_DEMAND|SR": 0.141,
+  "SR|BSD": 0.209,
+  "SR|BTC_TREND": 0.088,
+  "SR|COPPER_DEMAND": 0.141,
+  "SR|SR": 1.0
+ },
+ "sleeve_activity_pct": {
+  "BSD": 0.132,
+  "BTC_TREND": 0.584,
+  "COPPER_DEMAND": 0.323
+ },
+ "grid_top5": [
+  {
+   "BSD": 0.0,
+   "BTC_TREND": 0.2,
+   "COPPER_DEMAND": 0.35000000000000003,
+   "cash": 0.45,
+   "objective": 0.7599897532234652,
+   "sharpe": 1.68,
+   "alpha_ann": 16.16,
+   "alpha_t": 3.92
+  },
+  {
+   "BSD": 0.0,
+   "BTC_TREND": 0.15000000000000002,
+   "COPPER_DEMAND": 0.25,
+   "cash": 0.6,
+   "objective": 0.7525053368627785,
+   "sharpe": 1.74,
+   "alpha_ann": 11.96,
+   "alpha_t": 3.91
+  },
+  {
+   "BSD": 0.0,
+   "BTC_TREND": 0.15000000000000002,
+   "COPPER_DEMAND": 0.30000000000000004,
+   "cash": 0.55,
+   "objective": 0.7466723593202972,
+   "sharpe": 1.73,
+   "alpha_ann": 12.6,
+   "alpha_t": 3.92
+  },
+  {
+   "BSD": 0.05,
+   "BTC_TREND": 0.15000000000000002,
+   "COPPER_DEMAND": 0.25,
+   "cash": 0.55,
+   "objective": 0.7466578430535394,
+   "sharpe": 1.74,
+   "alpha_ann": 11.93,
+   "alpha_t": 3.9
+  },
+  {
+   "BSD": 0.0,
+   "BTC_TREND": 0.2,
+   "COPPER_DEMAND": 0.30000000000000004,
+   "cash": 0.5,
+   "objective": 0.7441742805908974,
+   "sharpe": 1.67,
+   "alpha_ann": 15.51,
+   "alpha_t": 3.89
+  }
+ ]
+}
